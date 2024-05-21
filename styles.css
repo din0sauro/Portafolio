@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+:root{
+*{
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #carouselExampleIndicators {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+  
+}
+
+.carousel {
+    width: 60%; 
+    height: auto; 
+    margin: 20px;
+  }
+
+.card {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 100px;
+    
+}
+
+.navbar {
+  background: linear-gradient(to right, #0e1a74, #02072d);
+  height: 80px;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255); 
+  text-shadow: 2px 2px 4px rgb(173, 135, 249);
+  transition: text-shadow 0.5s;
+}
+
+.navbar-brand{
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgb(173, 135, 249)
+}
+
+body {
+  background-color: #02072d;
+}
+
+.card{
+  background: linear-gradient(to left, #0e1a74, #02072d);
+  box-shadow: 4px 4px 8px rgb(173, 135, 249);
+  transition: text-shadow 0.5s;
+  color: #ffffff;
+}
+
+*{
+  color: #ffffff;
+}
+
+.nav_logo{
+  background-color: #0e1a74;
+  border: none;
+}
+
